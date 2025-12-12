@@ -1,0 +1,21 @@
+# Build output
+/target
+
+# Cargo lock file (optional for binaries, but often ignored)
+Cargo.lock
+
+# Editor/IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Claude
+CLAUDE.md
+
+# Binary output
+*.bin
