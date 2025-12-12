@@ -2,14 +2,17 @@
 name = "kz80_chip8"
 version = "0.1.0"
 edition = "2021"
-description = "A CHIP-8 to Z80 static compiler for RetroShield hardware"
+rust-version = "1.70"
+description = "A CHIP-8 to Z80 static recompiler for RetroShield hardware"
 license = "BSD-3-Clause"
 authors = ["Alex Jokela"]
 repository = "https://github.com/ajokela/kz80_chip8"
 homepage = "https://github.com/ajokela/kz80_chip8"
+documentation = "https://docs.rs/kz80_chip8"
 readme = "README.md"
 keywords = ["chip8", "z80", "compiler", "retro", "embedded"]
 categories = ["compilers", "development-tools", "emulators"]
+exclude = ["test/", "CLAUDE.md"]
 
 [dependencies]
 
